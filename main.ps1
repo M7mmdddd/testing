@@ -1,3 +1,5 @@
+irm https://christitus.com/win | iex
+
 $debug = $false
 
 if ($debug) {
